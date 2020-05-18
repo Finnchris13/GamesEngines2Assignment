@@ -92,7 +92,10 @@ public class BigBoid : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        if(gameObject.tag == "PhotonShot")
+        {
+            targetTransform = GameObject.FindGameObjectWithTag("Enemy").transform;
+        }
     }
 
     public void OnDrawGizmos()

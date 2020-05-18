@@ -16,15 +16,20 @@ public class LaserScript : MonoBehaviour
 
     private bool useLaser;
 
+    public bool onlyOneLaser;
+
     // Start is called before the first frame update
     void Start()
     {
         useLaser = false;
         line.enabled = false;
         Invoke("laser", laserShots[0]);
-        Invoke("laser", laserShots[1]);
-        Invoke("laser", laserShots[2]);
-        Invoke("laser", laserShots[3]);
+        if (!onlyOneLaser)
+        {
+            Invoke("laser", laserShots[1]);
+            Invoke("laser", laserShots[2]);
+            Invoke("laser", laserShots[3]);
+        }
     }
 
     // Update is called once per frame

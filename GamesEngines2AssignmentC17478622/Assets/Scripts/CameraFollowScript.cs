@@ -26,6 +26,7 @@ public class CameraFollowScript : MonoBehaviour
         {
             Invoke("setFollow", startFollowTime);
         }
+      
     }
 
     // Update is called once per frame

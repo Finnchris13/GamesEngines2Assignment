@@ -198,6 +198,11 @@ PrefabInstance:
       propertyPath: laserShots.Array.data[0]
       value: 3.6
       objectReference: {fileID: 0}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373407, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: m_Name
@@ -531,6 +536,11 @@ PrefabInstance:
       propertyPath: laserShots.Array.data[11]
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373406, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -678,6 +688,11 @@ PrefabInstance:
     - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: laserShots.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373406, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
@@ -835,6 +850,11 @@ PrefabInstance:
       propertyPath: laserShots.Array.data[11]
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373406, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -982,6 +1002,11 @@ PrefabInstance:
     - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: laserShots.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373406, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
@@ -1151,6 +1176,11 @@ PrefabInstance:
       propertyPath: laserShots.Array.data[0]
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373406, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1175,20 +1205,35 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 692696084019405082, guid: 02e090ce7ad51c849b7fbcc6125880a2,
+        type: 3}
+      propertyPath: targetTransform
+      value: 
+      objectReference: {fileID: 1490926614}
+    - target: {fileID: 692696084019405082, guid: 02e090ce7ad51c849b7fbcc6125880a2,
+        type: 3}
+      propertyPath: arriveEnabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 692696084019405082, guid: 02e090ce7ad51c849b7fbcc6125880a2,
+        type: 3}
+      propertyPath: seekEnabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 692696085142692559, guid: 02e090ce7ad51c849b7fbcc6125880a2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.72
+      value: 9.64
       objectReference: {fileID: 0}
     - target: {fileID: 692696085142692559, guid: 02e090ce7ad51c849b7fbcc6125880a2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.69
+      value: 1.56
       objectReference: {fileID: 0}
     - target: {fileID: 692696085142692559, guid: 02e090ce7ad51c849b7fbcc6125880a2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.33
+      value: 6.36
       objectReference: {fileID: 0}
     - target: {fileID: 692696085142692559, guid: 02e090ce7ad51c849b7fbcc6125880a2,
         type: 3}
@@ -1249,6 +1294,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UAV Trident
+      objectReference: {fileID: 0}
+    - target: {fileID: 692696085142732527, guid: 02e090ce7ad51c849b7fbcc6125880a2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02e090ce7ad51c849b7fbcc6125880a2, type: 3}
@@ -1389,6 +1439,11 @@ PrefabInstance:
       propertyPath: laserShots.Array.data[11]
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373406, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1472,11 +1527,16 @@ PrefabInstance:
         type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 171997256}
+      objectReference: {fileID: 1490926614}
     - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: laserShots.Array.data[0]
       value: 8.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373407, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
@@ -1531,6 +1591,31 @@ MonoBehaviour:
   pursueTarget: {fileID: 0}
   pursueEnabled: 0
   pursueTargetPos: {x: 0, y: 0, z: 0}
+--- !u!1 &497226117 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6554513794768120460, guid: 476875c33097ee9408264a6293b9454d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2082051122}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &497226119
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497226117}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 88114c03d5e1c724292bf3992c72f66c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &557970436
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1607,6 +1692,11 @@ PrefabInstance:
         type: 3}
       propertyPath: laserShots.Array.data[0]
       value: 7.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373407, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
@@ -1815,12 +1905,17 @@ PrefabInstance:
         type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 171997256}
+      objectReference: {fileID: 1490926614}
     - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: thisShip
       value: 
       objectReference: {fileID: 906999822}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373407, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: m_Name
@@ -1965,6 +2060,11 @@ PrefabInstance:
       propertyPath: laserShots.Array.data[11]
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373406, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2048,11 +2148,16 @@ PrefabInstance:
         type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 171997256}
+      objectReference: {fileID: 1490926614}
     - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: laserShots.Array.data[0]
       value: 7.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373407, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
@@ -2226,6 +2331,11 @@ PrefabInstance:
     - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: laserShots.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373406, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
@@ -2425,11 +2535,16 @@ PrefabInstance:
         type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 171997256}
+      objectReference: {fileID: 1490926614}
     - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: laserShots.Array.data[0]
       value: 8.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373407, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
@@ -2885,12 +3000,17 @@ PrefabInstance:
         type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 171997256}
+      objectReference: {fileID: 1490926614}
     - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: thisShip
       value: 
       objectReference: {fileID: 189278009}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373407, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: m_Name
@@ -3033,6 +3153,11 @@ PrefabInstance:
     - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: laserShots.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373406, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
@@ -3182,6 +3307,11 @@ PrefabInstance:
     - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: laserShots.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373406, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
@@ -3352,7 +3482,7 @@ MonoBehaviour:
   acceleration: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
   mass: 1
-  maxSpeed: 130
+  maxSpeed: 133
   maxForce: 100
   speed: 0
   seekEnabled: 0
@@ -3370,6 +3500,12 @@ MonoBehaviour:
   pursueTarget: {fileID: 0}
   pursueEnabled: 0
   pursueTargetPos: {x: 0, y: 0, z: 0}
+--- !u!4 &1490926614 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 692696085142692559, guid: 02e090ce7ad51c849b7fbcc6125880a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 346889601}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1528980999
 GameObject:
   m_ObjectHideFlags: 0
@@ -3599,6 +3735,11 @@ PrefabInstance:
       propertyPath: laserShots.Array.data[11]
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373406, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3682,12 +3823,17 @@ PrefabInstance:
         type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 171997256}
+      objectReference: {fileID: 1490926614}
     - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: thisShip
       value: 
       objectReference: {fileID: 2063664911}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373407, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: m_Name
@@ -3772,6 +3918,11 @@ PrefabInstance:
       propertyPath: thisShip
       value: 
       objectReference: {fileID: 189278009}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373407, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: m_Name
@@ -4277,12 +4428,17 @@ PrefabInstance:
         type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 171997256}
+      objectReference: {fileID: 1490926614}
     - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: thisShip
       value: 
       objectReference: {fileID: 906999822}
+    - target: {fileID: 8737845487458373401, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
+        type: 3}
+      propertyPath: onlyOneLaser
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8737845487458373407, guid: 1463379b6e253ce40b0c9ff3cb965f2c,
         type: 3}
       propertyPath: m_Name

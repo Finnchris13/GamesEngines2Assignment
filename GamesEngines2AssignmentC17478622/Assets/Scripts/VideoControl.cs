@@ -15,6 +15,23 @@ public class VideoControl : MonoBehaviour
 
     public float forceSkipTime;
 
+    public GameObject UIOverlay;
+
+    public bool activateOverlay;
+
+    public float overlayTimeOne;
+    public float overlayOffTimeOne;
+    public float overlayTimeTwo;
+    public float overlayOffTimeTwo;
+
+    public bool sceneTwo;
+
+    public float transparentOffOne;
+    public float transparentOnTwo;
+    public float transparentOffTwo;
+
+    public BigBoid boidScript;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +43,14 @@ public class VideoControl : MonoBehaviour
         {
             Invoke("forceNextScene", forceSkipTime);
         }
+
+        if (activateOverlay)
+        {
+            UIOverlay.SetActive(false);
+            Invoke("enableOverlayOne", overlayTimeOne);
+        }
+
+        boidScript.enabled = false;
     }
 
     // Update is called once per frame
@@ -34,10 +59,59 @@ public class VideoControl : MonoBehaviour
         
     }
 
+    void enableOverlayOne()
+    {
+        UIOverlay.SetActive(true);
+        boidScript.enabled = true;
+        Invoke("disableOverlayOne", overlayOffTimeOne);
+    }
+
+    void disableOverlayOne()
+    {
+        UIOverlay.SetActive(false);
+        Invoke("enableOverlayTwo", overlayTimeTwo);
+    }
+
+    void enableOverlayTwo()
+    {
+        UIOverlay.SetActive(true);
+        Invoke("disableOverlayTwo", overlayOffTimeTwo);
+    }
+
+    void disableOverlayTwo()
+    {
+        UIOverlay.SetActive(false);
+    }
+
     void setSeeThrough()
     {
         var videoPlayer = VideoController.GetComponent<VideoPlayer>();
         videoPlayer.targetCameraAlpha = 0;
+
+        if (sceneTwo)
+        {
+            Invoke("turnAlphaUpOne", transparentOffOne);
+        }
+    }
+
+    void turnAlphaUpOne()
+    {
+        var videoPlayer = VideoController.GetComponent<VideoPlayer>();
+        videoPlayer.targetCameraAlpha = 1;
+        Invoke("setSeeThroughTwo", transparentOnTwo);
+    }
+
+    void setSeeThroughTwo()
+    {
+        var videoPlayer = VideoController.GetComponent<VideoPlayer>();
+        videoPlayer.targetCameraAlpha = 0;
+        Invoke("turnAlphaUpTwo", transparentOffTwo);
+    }
+
+    void turnAlphaUpTwo()
+    {
+        var videoPlayer = VideoController.GetComponent<VideoPlayer>();
+        videoPlayer.targetCameraAlpha = 1;
     }
 
     void nextScene(VideoPlayer vp)
