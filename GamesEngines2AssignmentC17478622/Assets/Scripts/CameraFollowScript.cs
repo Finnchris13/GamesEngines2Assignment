@@ -13,33 +13,49 @@ public class CameraFollowScript : MonoBehaviour
 
     public bool slowCamRot;
 
+    public bool startFollow;
+
+    public float startFollowTime;
+
     // Start is called before the first frame update
     void Awake()
     {
         slowCamRot = false;
         Invoke("setSlowTrue", slowTimer);
+        if (!startFollow)
+        {
+            Invoke("setFollow", startFollowTime);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 targetDir = target.position - transform.position;
-        transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(targetDir), Time.time * speed);
-
-        if (slowCamRot)
+        if (startFollow)
         {
-            speed -= 0.00025f;
-        }
+            Vector3 targetDir = target.position - transform.position;
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(targetDir), Time.time * speed);
 
-        if (speed <= 0.01)
-        {
-            slowCamRot = false;
+            if (slowCamRot)
+            {
+                speed -= 0.00025f;
+            }
+
+            if (speed <= 0.01)
+            {
+                slowCamRot = false;
+            }
         }
     }
 
     void setSlowTrue()
     {
         slowCamRot = true;
+    }
+
+    void setFollow()
+    {
+        startFollow = true;
     }
 
 }
