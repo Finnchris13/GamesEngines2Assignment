@@ -371,7 +371,7 @@ PrefabInstance:
     - target: {fileID: 2047848879977264953, guid: 390b51f9d4bd4534a90c9e48f36283ef,
         type: 3}
       propertyPath: overlayOffTimeTwo
-      value: 5.5
+      value: 5.2
       objectReference: {fileID: 0}
     - target: {fileID: 2047848879977264953, guid: 390b51f9d4bd4534a90c9e48f36283ef,
         type: 3}
@@ -398,6 +398,11 @@ PrefabInstance:
       propertyPath: boidScript
       value: 
       objectReference: {fileID: 1768196874}
+    - target: {fileID: 2047848879977264953, guid: 390b51f9d4bd4534a90c9e48f36283ef,
+        type: 3}
+      propertyPath: accessBoid
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2047848879977264958, guid: 390b51f9d4bd4534a90c9e48f36283ef,
         type: 3}
       propertyPath: m_TargetCameraAlpha

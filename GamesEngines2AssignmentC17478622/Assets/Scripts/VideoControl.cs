@@ -32,6 +32,8 @@ public class VideoControl : MonoBehaviour
 
     public BigBoid boidScript;
 
+    public bool accessBoid;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -50,7 +52,10 @@ public class VideoControl : MonoBehaviour
             Invoke("enableOverlayOne", overlayTimeOne);
         }
 
-        boidScript.enabled = false;
+        if (accessBoid)
+        {
+            boidScript.enabled = false;
+        }
     }
 
     // Update is called once per frame

@@ -35,15 +35,17 @@ public class LaserScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        lockOnTarget();
-
-        if (useLaser)
+        if (target != null)
         {
-            line.enabled = true;
-            line.SetPosition(0, thisShip.position);
-            line.SetPosition(1, target.position);
-        }
+            lockOnTarget();
 
+            if (useLaser)
+            {
+                line.enabled = true;
+                line.SetPosition(0, thisShip.position);
+                line.SetPosition(1, target.position);
+            }
+        }
     }
 
     void lockOnTarget()
