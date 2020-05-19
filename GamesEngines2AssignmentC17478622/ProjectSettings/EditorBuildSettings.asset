@@ -32,4 +32,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene4Play.unity
     guid: 5aa3079e6c28e764ba861c694c3c12a2
+  - enabled: 1
+    path: Assets/Scenes/Scene5Play.unity
+    guid: 2e5548bf78113624098cafc655822320
+  - enabled: 1
+    path: Assets/Scenes/Scene6Cutscene.unity
+    guid: 77327564624e0d6449010019639b3c7c
+  - enabled: 1
+    path: Assets/Scenes/Scene6Play.unity
+    guid: 21336d296375225428233a70406bfc26
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: 3f756e2463bfee14c828c480d333d5f4
   m_configObjects: {}
